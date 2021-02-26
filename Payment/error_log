@@ -1,0 +1,84 @@
+
+[24-Feb-2021 12:22:37 UTC] PHP Notice:  Undefined index: stuLogEmail in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 57
+[24-Feb-2021 12:22:37 UTC] PHP Notice:  Undefined index: course_id in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 58
+[24-Feb-2021 12:22:37 UTC] PHP Notice:  Undefined index: stuLogEmail in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 104
+[24-Feb-2021 12:22:37 UTC] PHP Notice:  Undefined index: course_id in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 105
+[24-Feb-2021 12:22:45 UTC] PHP Notice:  Undefined index: stuLogEmail in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 57
+[24-Feb-2021 12:22:45 UTC] PHP Notice:  Undefined index: course_id in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 58
+[24-Feb-2021 12:22:45 UTC] PHP Notice:  Undefined index: stuLogEmail in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 104
+[24-Feb-2021 12:22:45 UTC] PHP Notice:  Undefined index: course_id in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 105
+[24-Feb-2021 12:28:53 UTC] PHP Notice:  Undefined variable: data in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 44
+[24-Feb-2021 12:29:43 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 79
+[24-Feb-2021 12:30:02 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 80
+[24-Feb-2021 12:30:30 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 83
+[24-Feb-2021 12:31:07 UTC] PHP Warning:  Missing argument 2 for addPayment(), called in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 67 and defined in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 85
+[24-Feb-2021 12:31:07 UTC] PHP Notice:  Undefined variable: conn in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 103
+[24-Feb-2021 12:31:07 UTC] PHP Fatal error:  Call to a member function query() on null in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 103
+[24-Feb-2021 12:32:26 UTC] PHP Warning:  Missing argument 2 for addPayment(), called in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 60 and defined in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 78
+[24-Feb-2021 12:32:26 UTC] PHP Notice:  Undefined variable: conn in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 96
+[24-Feb-2021 12:32:26 UTC] PHP Fatal error:  Call to a member function query() on null in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 96
+[24-Feb-2021 12:34:21 UTC] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MA3D6II9AX41672EH0079048/execute.' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:207
+Stack trace:
+#0 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"payer_id":"TC...')
+#1 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL)
+#2 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(651): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL, Object(PayPal in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 207
+[24-Feb-2021 12:34:28 UTC] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MA3D6II9AX41672EH0079048/execute.' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:207
+Stack trace:
+#0 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"payer_id":"TC...')
+#1 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL)
+#2 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(651): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL, Object(PayPal in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 207
+[24-Feb-2021 12:36:59 UTC] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MA3D6II9AX41672EH0079048/execute.' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:207
+Stack trace:
+#0 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"payer_id":"TC...')
+#1 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL)
+#2 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(651): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL, Object(PayPal in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 207
+[24-Feb-2021 12:43:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 71
+[24-Feb-2021 12:43:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 71
+[24-Feb-2021 12:43:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 71
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  Missing argument 2 for addPayment(), called in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 63 and defined in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 81
+[24-Feb-2021 12:46:07 UTC] PHP Notice:  Undefined variable: db_host in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 85
+[24-Feb-2021 12:46:07 UTC] PHP Notice:  Undefined variable: db_user in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 85
+[24-Feb-2021 12:46:07 UTC] PHP Notice:  Undefined variable: db_password in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 85
+[24-Feb-2021 12:46:07 UTC] PHP Notice:  Undefined variable: db_name in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 85
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 85
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Property access is not allowed yet in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Property access is not allowed yet in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Property access is not allowed yet in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Property access is not allowed yet in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  print_r(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 97
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 103
+[24-Feb-2021 12:46:07 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 12:56:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 12:56:00 UTC] PHP Warning:  mysqli_errno() expects exactly 1 parameter, 0 given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 12:57:05 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 12:57:05 UTC] PHP Warning:  mysqli_errno() expects exactly 1 parameter, 0 given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 12:57:36 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 12:57:36 UTC] PHP Warning:  mysqli_errno() expects exactly 1 parameter, 0 given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 13:01:10 UTC] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MA3EQ7Y6138128631267992X/execute.' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:207
+Stack trace:
+#0 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"payer_id":"U2...')
+#1 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"payer_id":"U2...', NULL)
+#2 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(651): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"payer_id":"U2...', NULL, Object(PayPal in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 207
+[24-Feb-2021 13:01:38 UTC] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MA3D6II9AX41672EH0079048/execute.' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:207
+Stack trace:
+#0 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"payer_id":"TC...')
+#1 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL)
+#2 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(651): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL, Object(PayPal in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 207
+[24-Feb-2021 13:02:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[24-Feb-2021 13:02:41 UTC] PHP Warning:  mysqli_errno() expects exactly 1 parameter, 0 given in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/Payment/response.php on line 108
+[25-Feb-2021 08:29:45 UTC] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MA3D6II9AX41672EH0079048/execute.' in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:207
+Stack trace:
+#0 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"payer_id":"TC...')
+#1 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL)
+#2 /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(651): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"payer_id":"TC...', NULL, Object(PayPal in /home/bilalsoftlabs/public_html/uzair_80/ELEARNING/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 207
