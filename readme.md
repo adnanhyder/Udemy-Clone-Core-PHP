@@ -14,3 +14,27 @@ Usage
     run on local host your browser Enjoy
 
 That's all, you are good to go.
+
+Courses
+
+    Each course can be individually viewed to see additional data and course information.
+    After selecting a course to view, a list of suggested similar courses is populated.
+    Videos can be played while viewing a course.
+
+
+Searching/ Browsing
+
+    Users have access to a search feature that allows quick navigation of matching courses.
+    Courses can additionally be browsed by clicking on arrow buttons in a row of similar courses.
+    Results of searches can be sorted by multiple factors.
+
+
+Technologies Used
+
+    Backend
+        Database: mysql
+        PHP
+
+    Frontend
+        HTML
+        CSS3
