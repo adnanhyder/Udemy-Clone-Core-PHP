@@ -38,3 +38,12 @@ Technologies Used
     Frontend
         HTML
         CSS3
+
+
+Show your support by rating the project!!
+
+Feel free to contribute!
+
+for more infor 
+12345adnan@gmail.com
+
